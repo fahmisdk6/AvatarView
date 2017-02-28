@@ -2,7 +2,7 @@
 Custom view to handle whether we should show avatar image or just initial of username. 
 Inspired by Daniel Lew's Talk on Goto; Conference https://www.youtube.com/watch?v=X4qMBpDsVnM with other support such as custom font and custom corner radius
 
-![alt tag](../preview.png)
+![alt tag](https://github.com/fahmisdk6/AvatarView/blob/master/preview.png)
 
 
 ## Setup
