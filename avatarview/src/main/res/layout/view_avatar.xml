@@ -12,14 +12,14 @@
         tools:text="FS"
         android:textAllCaps="true"
         android:textColor="@android:color/white"
-        android:textSize="24sp"
+        android:textSize="12sp"
     />
     <!--app:font="@string/avenir_medium"-->
     <me.fahmisdk6.avatarview.rounded.DynamicRoundedImageView
         android:id="@+id/round_img_avatar"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        app:corner_radius="0dp" />
+        app:rcorner_radius="0dp" />
 
 
 </merge>

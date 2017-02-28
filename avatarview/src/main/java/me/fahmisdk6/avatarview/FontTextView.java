@@ -21,11 +21,18 @@ public class FontTextView extends TextView {
         }
 
         TypedArray styledAttrs = context.obtainStyledAttributes(attrs, R.styleable.FontTextView);
-        String fontName = styledAttrs.getString(R.styleable.FontTextView_font);
+        String fontName = styledAttrs.getString(R.styleable.FontTextView_tfont);
         styledAttrs.recycle();
 
         if (fontName != null) {
             Typeface typeface = Typeface.createFromAsset(context.getAssets(), fontName);
+            setTypeface(typeface);
+        }
+    }
+
+    public void setFont(String fontName){
+        if (fontName != null) {
+            Typeface typeface = Typeface.createFromAsset(getContext().getAssets(), fontName);
             setTypeface(typeface);
         }
     }

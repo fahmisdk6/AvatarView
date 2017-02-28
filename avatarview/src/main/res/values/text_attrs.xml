@@ -2,9 +2,9 @@
 <resources>
 
     <declare-styleable name="FontTextView">
-        <attr name="font" format="string" />
-        <attr name="maxSize" format="dimension" />
-        <attr name="autoMargin" format="dimension" />
+        <attr name="tfont" format="string" />
+        <attr name="tmaxSize" format="dimension" />
+        <attr name="tautoMargin" format="dimension" />
     </declare-styleable>
 
 </resources>

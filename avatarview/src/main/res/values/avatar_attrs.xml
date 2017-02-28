@@ -2,7 +2,11 @@
 <resources>
 
     <declare-styleable name="AvatarView">
-        <attr name="cornerRadius" format="dimension" />
+        <attr name="avCornerRadius" format="dimension" />
+        <attr name="avBgTextColor" format="color"/>
+        <attr name="avTextColor" format="color"/>
+        <attr name="avTextSize" format="dimension"/>
+        <attr name="avFont" format="string"/>
     </declare-styleable>
 
 </resources>
