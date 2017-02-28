@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <me.fahmisdk6.avatarview.FontTextView
+        android:id="@+id/text_avatar_name"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_avatar_text"
+        android:gravity="center"
+        tools:text="FS"
+        android:textAllCaps="true"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+    />
+    <!--app:font="@string/avenir_medium"-->
+    <me.fahmisdk6.avatarview.rounded.DynamicRoundedImageView
+        android:id="@+id/round_img_avatar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:corner_radius="0dp" />
+
+
+</merge>

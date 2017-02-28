@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="FontTextView">
+        <attr name="font" format="string" />
+        <attr name="maxSize" format="dimension" />
+        <attr name="autoMargin" format="dimension" />
+    </declare-styleable>
+
+</resources>
