@@ -11,8 +11,8 @@ android {
     defaultConfig {
         minSdkVersion 15
         targetSdkVersion 25
-        versionCode 1
-        versionName "1.0"
+        versionCode 2
+        versionName "1.1"
 
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
 
@@ -55,30 +55,14 @@ dependencies {
     compile 'com.android.support:appcompat-v7:25.1.0'
     //Image Loader
     compile 'com.github.bumptech.glide:glide:3.7.0'
+    //rounded image
+    compile 'de.hdodenhof:circleimageview:2.2.0'
+
 
     testCompile 'junit:junit:4.12'
 }
 
-bintray {
-    user = 'fahmisdk6'
-    key = '5c2ae3aeee1c081f6012ae9cabca371214d537db'
-    pkg {
-        repo = 'maven'
-        name = 'me.fahmisdk6.avatarview'
 
-        version {
-            name = '1.0.0'
-            desc = 'First Version'
-            released  = new Date()
-            vcsTag = '1.0.0'
-        }
-
-        licenses = ['Apache-2.0']
-        vcsUrl = 'https://github.com/fahmisdk6/AvatarView.git'
-        websiteUrl = 'https://github.com/fahmisdk6/AvatarView'
-    }
-    configurations = ['archives']
-}
 
 
 buildscript {

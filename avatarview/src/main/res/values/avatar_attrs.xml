@@ -9,4 +9,11 @@
         <attr name="avFont" format="string"/>
     </declare-styleable>
 
+    <declare-styleable name="CircleAvatarView">
+        <attr name="cavBgTextColor" format="color"/>
+        <attr name="cavTextColor" format="color"/>
+        <attr name="cavTextSize" format="dimension"/>
+        <attr name="cavFont" format="string"/>
+    </declare-styleable>
+
 </resources>

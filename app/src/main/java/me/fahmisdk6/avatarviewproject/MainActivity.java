@@ -3,7 +3,9 @@ package me.fahmisdk6.avatarviewproject;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
+import de.hdodenhof.circleimageview.CircleImageView;
 import me.fahmisdk6.avatarview.AvatarView;
+import me.fahmisdk6.avatarview.CircleAvatarView;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -28,6 +30,9 @@ public class MainActivity extends AppCompatActivity {
 
         AvatarView avatarView5 = (AvatarView) findViewById(R.id.avatar_user5);
         avatarView5.bind("Fahmi Sidik", null);
+
+        CircleAvatarView avatarView6 = (CircleAvatarView) findViewById(R.id.avatar_user6);
+        avatarView6.bind("Fahmi Sidik", null);
 
     }
 }

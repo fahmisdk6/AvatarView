@@ -126,4 +126,29 @@
 
     </LinearLayout>
 
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <me.fahmisdk6.avatarview.CircleAvatarView
+            android:id="@+id/avatar_user6"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            app:cavBgTextColor="@color/colorAccent"
+            app:cavTextColor="@color/colorPrimary"
+            app:cavTextSize="10sp"
+            app:cavFont="font/avenir_black.ttf"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:text="Circle Avatar view with customized text color, font and size" />
+
+
+    </LinearLayout>
 </LinearLayout>
