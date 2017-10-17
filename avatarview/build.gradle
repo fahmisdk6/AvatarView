@@ -59,6 +59,26 @@ dependencies {
     testCompile 'junit:junit:4.12'
 }
 
+bintray {
+    user = 'fahmisdk6'
+    key = '5c2ae3aeee1c081f6012ae9cabca371214d537db'
+    pkg {
+        repo = 'maven'
+        name = 'me.fahmisdk6.avatarview'
+
+        version {
+            name = '1.0.0'
+            desc = 'First Version'
+            released  = new Date()
+            vcsTag = '1.0.0'
+        }
+
+        licenses = ['Apache-2.0']
+        vcsUrl = 'https://github.com/fahmisdk6/AvatarView.git'
+        websiteUrl = 'https://github.com/fahmisdk6/AvatarView'
+    }
+    configurations = ['archives']
+}
 
 
 buildscript {
