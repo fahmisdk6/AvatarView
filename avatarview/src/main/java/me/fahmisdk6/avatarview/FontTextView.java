@@ -4,13 +4,14 @@ import android.content.Context;
 import android.content.res.TypedArray;
 import android.graphics.Typeface;
 import android.util.AttributeSet;
-import android.widget.TextView;
+
+import androidx.appcompat.widget.AppCompatTextView;
 
 
 /**
  * Created by FahmiSDK on 16/02/2015.
  */
-public class FontTextView extends TextView {
+public class FontTextView extends AppCompatTextView {
 
     public FontTextView(Context context, AttributeSet attrs) {
         super(context, attrs);

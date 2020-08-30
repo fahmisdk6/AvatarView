@@ -10,12 +10,13 @@ import android.graphics.drawable.LayerDrawable;
 import android.net.Uri;
 import android.util.AttributeSet;
 import android.util.Log;
-import android.widget.ImageView;
+
+import androidx.appcompat.widget.AppCompatImageView;
 
 import me.fahmisdk6.avatarview.R;
 
 
-public class RoundedImageView extends ImageView {
+public class RoundedImageView extends AppCompatImageView {
 
 	public static final String TAG = "RoundedImageView";
 	public static final float DEFAULT_RADIUS = 0f;
