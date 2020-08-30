@@ -1,9 +1,8 @@
 package me.fahmisdk6.avatarviewproject;
 
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
-import de.hdodenhof.circleimageview.CircleImageView;
 import me.fahmisdk6.avatarview.AvatarView;
 import me.fahmisdk6.avatarview.CircleAvatarView;
 
